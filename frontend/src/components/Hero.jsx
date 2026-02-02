@@ -68,7 +68,7 @@ export const Hero = () => {
               className="font-manrope text-base sm:text-lg text-muted-foreground leading-relaxed max-w-xl"
               data-testid="hero-summary"
             >
-              {personal.summary}
+              {personal.hero}
             </motion.p>
 
             <motion.div

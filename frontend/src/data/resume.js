@@ -5,6 +5,7 @@ export const resumeData = {
     location: "Thoothukudi",
     phone: "+91 7418949082",
     email: "parthibanmr2@gmail.com",
+    hero:"Embedded & IoT Engineer building smart, real-time systems from hardware to cloud.",
     summary: "Embedded Systems and IoT Engineer with hands-on experience in microcontrollers, sensor integration, real-time systems, and computer vision. Built multiple end-to-end projects including a low-cost 3D printer, number plate detection system, and smart monitoring devices. Skilled in firmware development, hardware interfacing, FreeRTOS, and cloud-connected IoT systems."
   },
 

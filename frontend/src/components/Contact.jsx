@@ -29,7 +29,7 @@ export const Contact = () => {
                 <span className="font-manrope">{personal.email}</span>
               </a>
               <a
-                href={`tel:${personal.phone}`}
+                href={` https://wa.me/7418949082`}
                 data-testid="contact-phone"
                 className="flex items-center gap-3 text-sm text-muted-foreground hover:text-brand-600 transition-colors group"
               >
@@ -38,15 +38,16 @@ export const Contact = () => {
                 </div>
                 <span className="font-manrope">{personal.phone}</span>
               </a>
-              <div
+              <a
+                href={` https://thoothukudi.nic.in/about-district/`}
                 data-testid="contact-location"
-                className="flex items-center gap-3 text-sm text-muted-foreground"
+                className="flex items-center gap-3 text-sm text-muted-foreground hover:text-brand-600 transition-colors group"
               >
-                <div className="p-2 rounded-lg border border-border">
+                <div className="p-2 rounded-lg border border-border group-hover:border-brand-600 transition-colors">
                   <MapPin className="w-4 h-4" />
                 </div>
                 <span className="font-manrope">{personal.location}</span>
-              </div>
+              </a>
             </div>
           </div>
 
