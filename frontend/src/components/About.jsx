@@ -44,7 +44,7 @@ export const About = () => {
                 </div>
                 <div className="flex items-center gap-3 text-sm" data-testid="about-phone">
                   <Phone className="w-4 h-4 text-brand-600" />
-                  <a href={`tel:${personal.phone}`} className="font-manrope text-muted-foreground hover:text-brand-600 transition-colors">
+                  <a href={`https://wa.me/7418949082`} className="font-manrope text-muted-foreground hover:text-brand-600 transition-colors">
                     {personal.phone}
                   </a>
                 </div>

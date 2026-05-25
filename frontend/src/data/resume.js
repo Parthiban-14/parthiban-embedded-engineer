@@ -6,7 +6,7 @@ export const resumeData = {
     phone: "+91 7418949082",
     email: "parthibanmr2@gmail.com",
     hero:"Embedded & IoT Engineer building smart, real-time systems from hardware to cloud.",
-    summary: "Embedded Systems and IoT Engineer with hands-on experience in microcontrollers, sensor integration, real-time systems, and computer vision. Built multiple end-to-end projects including a low-cost 3D printer, number plate detection system, and smart monitoring devices. Skilled in firmware development, hardware interfacing, FreeRTOS, and cloud-connected IoT systems."
+    summary: "Embedded Systems and IoT Engineer with hands-on experience in microcontrollers, sensor integration, real-time systems, and computer vision. Built multiple end-to-end projects including a low-cost 3D printer, number plate detection system, and smart monitoring devices. Skilled in firmware development, hardware interfacing, FreeRTOS, and cloud-connected IoT systems. Seeking roles in Embedded Systems, IoT Development, or Hardware Engineering."
   },
 
   skills: {
@@ -93,7 +93,10 @@ export const resumeData = {
         "/images/3D.png",
         "/images/3D_printers.jpg",
         "/images/3D_F.jpg",
-        "/images/3D_models.jpg"
+        "/images/3D_models_0.jpg",
+        "/images/3D_models_1.jpeg",
+        "/images/3D_models_2.jpeg",
+        "/images/3D_models_3.jpeg"
       ],
       videos: [
         {
@@ -161,8 +164,6 @@ export const resumeData = {
       images: [
         "/images/SMS.jpg",
         "/images/SVPS.png",
-        "https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=800",
-        "https://images.unsplash.com/photo-1557672172-298e090bd0f1?w=800"
       ],
       videos: [
         {
@@ -186,7 +187,7 @@ export const resumeData = {
       image: "/images/ADAS.png",
       images: [
         "/images/ADAS.png",
-        "/images/ADAS_ECU.png"
+        "/images/ECU.png"
       ],
       videos: [],
       highlights: [
@@ -194,6 +195,47 @@ export const resumeData = {
         "Automotive electronics expertise",
         "Control system design",
         "Hackathon project"
+      ]
+    },
+    {
+      id: 6,
+      title: "Embedded Interrupt Event Queue Management System",
+      type: "ONE Day Hackathon from Kalasalingam University",
+      techStack: ["RTOS", "Event Management", "Interrupt Handling"],
+      description: "Design and create IoT product in one day and demonstrate it. Create monitoring system with interrupt and event queue management system using RTOS.",
+      image: "/images/EIAQMS.png",
+      images: ["/images/EIAQMS.png",
+        "/images/EIAQMS_Dashboard.png",
+        "/images/EIAQMS_Dashboard 1.png",
+        "/images/EIAQMS_Dashboard 2.png"
+      ],
+      videos: [],
+      highlights: [
+        "IoT product design in one day",
+        "Interrupt-driven architecture",
+        "Event queue management system",
+        "RTOS-based implementation"
+      ]
+    },
+    {
+      id: 7,
+      title: "RTOS Based Industrial Safety and Performance Monitoring System",
+      type: "Final Year Project",
+      techStack: ["ESP32", "FreeRTOS", "Machine Learning", "Mobile/Web Application"],
+      description: "Design RTOS-based industrial monitoring system using ESP32. Ensure industrial security, safety, and reliability through real-time task scheduling. Monitor system performance including task execution time, CPU load, and communication latency. Visualize live industrial data on mobile/web application. Analyze abnormal conditions using Machine Learning for predictive safety.",
+      image: "/images/industrial_0.jpeg",
+      images: ["/images/industrial_0.jpeg",
+        "/images/industrial_1.jpeg",
+        "/images/industrial_2.png",
+        "/images/industrial_3.png"
+      ],
+      videos: [],
+      highlights: [
+        "RTOS-based industrial monitoring",
+        "Real-time task scheduling",
+        "System performance monitoring",
+        "Live data visualization",
+        "Machine Learning for predictive safety"
       ]
     }
   ],
@@ -280,6 +322,30 @@ export const resumeData = {
       image: "/images/certs/AUTOMATIC_FT.jpg",
       credentialId: "GRACE-FISHTANK-001",
       credentialUrl: "/images/certs/AUTOMATIC_FT.jpg"
+    },
+    {
+      name: "Intra-College Project Expo",
+      issuer: "Grace College of Engineering",
+      date: "2024",
+      image: "/images/certs/intra_College Project Expo.jpg",
+      credentialId: "GRACE-EXPO-1ST-PRIZE",
+      credentialUrl: "/images/certs/intra_College Project Expo.jpg"
+    },
+    {
+      name: "ONE DAY Hackathon",
+      issuer: "Kalasalingam University",
+      date: "2024",
+      image: "/images/certs/hackathon _kalasalingam unvercity.jpg",
+      credentialId: "KALASALINGAM-HACKATHON-2024",
+      credentialUrl: "/images/certs/hackathon _kalasalingam unvercity.jpg"
+    },
+    {
+      name: "Second International Conference (ICRIT '26)",
+      issuer: "Grace College of Engineering",
+      date: "2026",
+      image: "/images/certs/Paper_presentation.png",
+      credentialId: "GRACE-ICRIT-26",
+      credentialUrl: "/images/certs/Paper_presentation.png"
     }
   ],
 

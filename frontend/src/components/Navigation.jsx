@@ -48,9 +48,20 @@ export const Navigation = () => {
           <a
             href="#hero"
             data-testid="nav-logo"
-            className="font-ibm font-bold text-xl tracking-tight hover:text-brand-600 transition-colors"
+            className="flex items-center gap-2 hover:opacity-80 transition-opacity"
           >
-            PN
+            <div className="w-10 h-10 rounded-full border-2 border-brand-600 overflow-hidden flex items-center justify-center bg-gradient-to-br from-brand-600 to-brand-800">
+              <img 
+                src="/images/profile.jpg" 
+                alt="Profile" 
+                className="w-full h-full object-cover"
+                onError={(e) => {
+                  e.target.style.display = 'none';
+                  e.target.parentElement.innerHTML = '<span className="text-white font-bold">PN</span>';
+                }}
+              />
+            </div>
+            <span className="font-ibm font-bold text-xl tracking-tight text-foreground">PN</span>
           </a>
 
           {/* Desktop Navigation */}
