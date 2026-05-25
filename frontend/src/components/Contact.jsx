@@ -56,7 +56,7 @@ export const Contact = () => {
             <h3 className="font-ibm font-semibold text-2xl">Connect</h3>
             <div className="flex flex-wrap gap-4">
               <a
-                href="https://github.com/Parthiban-14"
+                href="https://github.com/Parthiban-14-2005"
                 target="_blank"
                 rel="noopener noreferrer"
                 data-testid="social-github"
